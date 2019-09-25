@@ -1,0 +1,21 @@
+.skill {
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 0 auto;
+
+  &__list {
+    list-style: none;
+    margin-top: 1rem;
+  }
+
+  &__icon {
+    fill: $color-primary;
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    margin-bottom: .8rem;
+  }
+}

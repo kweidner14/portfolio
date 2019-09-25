@@ -1,0 +1,32 @@
+<% include ./partials/header %>
+<% include ./partials/navigation %>
+
+<section class="hellopage">
+    <div class="contactpage__title">
+        <h2 class="contact__title heading-secondary">Nice to meet you</h2>
+    </div>
+
+    <div class="contactpage__details">
+        <p class="contactpage__text">Please feel free to send me a message if you have any questions, or just simply want to send a friendly greeting.</p>
+        <p class="contactpage__text">I would love to hear from you!</p>
+    </div>
+
+    <form action="/contact" method="POST" class="form" id="form">
+        <div class="form__grid">
+
+            <input type="text" class="form__grid-name" id="name" required>
+            <label for="name" class="form__grid-namelabel">Name</label>
+
+            <input type="email" name="email" class="form__grid-email" id="email" required>
+            <label for="email" class="form__grid-emaillabel">Email</label>
+
+            <textarea id="message" cols="40" rows="10" name="message" class="form__grid-message" required></textarea>
+            <label for="message" class="form__grid-messagelabel">Message</label>
+
+            <button type="submit" class="btn btn--green form__grid-btn">Send Message</button>
+
+        </div>
+    </form>
+</section>
+
+<% include ./partials/footer %>

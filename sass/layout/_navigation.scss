@@ -1,0 +1,34 @@
+.navbar {
+  height: 10rem;
+  background-color: rgba($color-primary, .4);
+
+  &__buttons {
+    float: right;
+  }
+
+  &__btn {
+    margin-top: 2.5rem !important;
+
+    &--home {
+      float: left;
+      margin-left: 2rem;
+    }
+
+    &--reset {
+      float: right;
+      margin-right: 2rem;
+    }
+  }
+
+  &__placeholder{
+    padding-top: 4.1rem;
+
+    &--img {
+      height: 12rem;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

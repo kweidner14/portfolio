@@ -1,0 +1,41 @@
+.header {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  height: 100vh;
+
+
+  background-color: rgba($color-secondary, .2);
+
+  align-self: center;
+  text-align: center;
+
+
+  &__content {
+    margin: 26rem 55rem;
+
+    @media only screen and (max-width: $bp-1756) {
+      margin: 19rem 55rem;
+    }
+    @media only screen and (max-width: $bp-1507) {
+      margin: 19rem 45rem;
+    }
+    @media only screen and (max-width: $bp-1311) {
+      margin: 19rem 32rem;
+    }
+    @media only screen and (max-width: $bp-1051) {
+      margin: 19rem 20rem;
+    }
+    @media only screen and (max-width: $bp-850) {
+      margin: 35rem 25rem;
+    }
+    @media only screen and (max-width: $bp-750) {
+      margin: 35rem 14rem;
+    }
+    @media only screen and (max-width: $bp-570) {
+      margin: 35rem 7rem;
+    }
+    @media only screen and (max-width: $bp-480) {
+      margin: 20rem 2rem;
+    }
+  }
+}
