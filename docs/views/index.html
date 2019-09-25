@@ -1,0 +1,157 @@
+<% include ./partials/header %>
+<body class="container">
+
+<header class="header">
+  <div class="bg-video">
+    <video class="bg-video__content" autoplay muted loop>
+      <source src="images/video.mp4" type="video/mp4">
+      <source src="images/video.webm" type="video/webm">
+      Your browser is not supported!
+    </video>
+  </div>
+
+  <div class="header__content">
+    <h1 class="heading-primary">
+      <span class="heading-primary--sub">Hello, I'm</span>
+      <span class="heading-primary--main">Kyle Weidner</span>
+      <span class="heading-primary--sub">I enjoy creating simple, yet stunning websites</span>
+      <span class="heading-primary--btn"><a href="/hello" class="btn btn--white">Say Hello</a></span>
+    </h1>
+  </div>
+</header>
+
+<section class="about" id="about">
+  <h2 class="heading-secondary about__title">A Bit About Me</h2>
+  <img src="images/myAvatar.png" alt="user image" class="about__img">
+
+  <div class="about__point">
+    <p class="about__content">
+      I am a Denver-based full-stack web developer who is constantly learning and implementing new topics to further advance my
+      web development skills. I am naturally curious, creative, alert and observant with a problem-solving mindset. I'm looking to "get my foot in the door"
+      of the professional development world by creating beautiful websites for business and consumer use.
+    </p>
+  </div>
+</section>
+
+<section class="skills">
+
+  <div class="skill">
+    <svg class="skill__icon">
+      <use xlink:href="images/sprite.svg#icon-pencil2"></use>
+    </svg>
+    <h3 class="heading-4">Front-End Developer</h3>
+    <ul class="skill__list">
+      <li class="skill--1"><p class="skill__text">HTML</p></li>
+      <li class="skill--2"><p class="skill__text">CSS</p></li>
+      <li class="skill--3"><p class="skill__text">Sass</p></li>
+      <li class="skill--4"><p class="skill__text">SCSS</p></li>
+    </ul>
+  </div>
+
+  <div class="skill">
+    <svg class="skill__icon">
+      <use xlink:href="images/sprite.svg#icon-library"></use>
+    </svg>
+    <h3 class="heading-4">Education</h3>
+
+    <ul class="skill__list">
+      <li class="skill--1"><p class="skill__text">A.S. in Computer Science</p></li>
+      <li class="skill--2"><p class="skill__text">Pursuing B.S in Computer Science</p></li>
+      <li class="skill--3"><p class="skill__text">Web Developer Bootcamp Online Udemy Course</p></li>
+      <li class="skill--4"><p class="skill__text">Advanced CSS & Sass Online Udemy Course</p></li>
+      <li class="skill--5"><p class="skill__text">Enrolled in Advanced Web Developer Bootcamp</p></li>
+    </ul>
+  </div>
+
+  <div class="skill">
+    <svg class="skill__icon">
+      <use xlink:href="images/sprite.svg#icon-wrench"></use>
+    </svg>
+    <h3 class="heading-4">Back-End Developer</h3>
+    <ul class="skill__list">
+      <li class="skill--1"><p class="skill__text">Node.js</p></li>
+      <li class="skill--1"><p class="skill__text">Express</p></li>
+      <li class="skill--2"><p class="skill__text">JavaScript</p></li>
+      <li class="skill--3"><p class="skill__text">Python</p></li>
+      <li class="skill--3"><p class="skill__text">C#</p></li>
+      <li class="skill--4"><p class="skill__text">MongoDB</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="work">
+  <h2 class="heading-secondary work__title">My Recent Work</h2>
+
+  <!--    PROJECT 1   -->
+  <div class="project">
+    <div class="project__picture--1">
+      &nbsp;
+    </div>
+    <div class="project__logo--1">
+      &nbsp;
+    </div>
+    <div class="project__details project__details--1">
+      <p class="project__text">By connecting home buyers to top-ranking realtors worldwide, Nexter makes purchasing your
+      next luxury home effortless and fun.</p>
+      <a href="https://kweidner14.github.io/nexter/" class="btn btn--green btn--animated">Visit Site</a>
+    </div>
+  </div>
+
+  <!--    PROJECT 2   -->
+  <div class="project">
+    <div class="project__picture--2">
+      &nbsp;
+    </div>
+    <div class="project__logo--2">
+      &nbsp;
+    </div>
+    <p class="project__logo--2-title">Trillo</p>
+    <div class="project__details project__details--1">
+      <p class="project__text">Whether you need a luxury hotel, a top-tier rental car, or a first-class flight,
+        Trillo is your all-in-one booking tool. Let us take the hassle out of planning your next vacation. </p>
+      <a href="https://kweidner14.github.io/trillo/" class="btn btn--green btn--animated">Visit Site</a>
+    </div>
+  </div>
+
+  <!--    PROJECT 3   -->
+  <div class="project">
+    <div class="project__picture--3">
+      &nbsp;
+    </div>
+    <div class="project__logo--3">
+      &nbsp;
+    </div>
+    <div class="project__details project__details--1">
+      <p class="project__text">Live adventures like you never have before! Natours allows adventurous people to explore the world,
+      live a healthier life, and rekindle a lost relationship with nature.</p>
+      <a href="https://kweidner14.github.io/natours/" class="btn btn--green btn--animated">Visit Site</a>
+    </div>
+  </div>
+
+  <!--    PROJECT 4   -->
+  <div class="project">
+    <div class="project__picture--4">
+      &nbsp;
+    </div>
+    <div class="project__logo--4">
+      &nbsp;
+    </div>
+    <p class="project__logo--4-title">YelpCamp</p>
+    <div class="project__details project__details--1">
+      <p class="project__text">Disconnect to reconnect with nature. YelpCamp allows camping enthusiasts to share exquisite campsites
+      with each other. View our hand-picked campgrounds from all over the world and plan your next getaway today!</p>
+      <a href="http://polar-meadow-68233.herokuapp.com/" class="btn btn--green btn--animated">Visit Site</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2 class="contact__title heading-secondary">Want to collaborate?</h2>
+  <p class="contact__text">If you  want to get in touch with me, just shoot me a message with some information regarding your design. Let's talk
+    logistics!</p>
+
+  <a href="/contact" class="btn btn--white contact__btn">Contact Me</a>
+
+</section>
+
+<% include ./partials/footer %>
