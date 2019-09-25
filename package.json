@@ -8,7 +8,7 @@
     "dev": "node ./bin/www",
     "begin": "npm-run-all --parallel serve watch:sass",
     "devserver": "npm run dev | npm run begin",
-    "start": "node .bin/www",
+    "start": "node ./bin/www",
     "compile:sass": "node-sass sass/main.scss public/stylesheets/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' public/stylesheets/style.comp.css -o public/stylesheets/style.prefix.css",
     "compress:css": "node-sass public/stylesheets/style.prefix.css public/stylesheets/style.css --output-style compressed",
